@@ -1,0 +1,66 @@
+ .dropdown {
+     background-color: black;
+     color: white;
+     padding: 8px;
+     font-size: 20px;
+     font-style: normal;
+     border-radius: 6px;
+     width: 200px;
+ }
+
+ .dropdown option {
+     background-color: whitesmoke;
+     color: black;
+ }
+
+ .dropdown .hr-option {
+     color: black;
+ }
+
+  .nav-link {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+  }
+
+         hr {
+             border: none;
+             border-top: 2px solid black;
+         }
+
+                  .foot {
+                      color: white;
+                      background-color: black;
+                  }
+
+                                        body {
+                                            background-color: whitesmoke;
+                                        }
+
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+    /* Adding transition for smoother effect */
+}
+
+.social-icons img {
+    width: 50px;
+    height: auto;
+}
+
+/* Apply hover effect to the icons */
+.social-icons a:hover img {
+    transform: scale(1.2);
+    /* Scale the image when hovered */
+}
