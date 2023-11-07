@@ -51,16 +51,16 @@
     margin-right: 10px;
     margin-bottom: 10px;
     transition: transform 0.3s ease;
-    /* Adding transition for smoother effect */
+   
 }
 
 .social-icons img {
-    width: 50px;
+    width: 40px;
     height: auto;
 }
 
-/* Apply hover effect to the icons */
+
 .social-icons a:hover img {
     transform: scale(1.2);
-    /* Scale the image when hovered */
+   
 }
